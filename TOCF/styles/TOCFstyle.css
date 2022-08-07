@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(50, 50, 50);
+    background-image: url("medias/background.png");
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 30%;
+    margin-left: 35%;
+    background-color: rgb(70,70,70);
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.3);
+
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(70,70,70);
+    margin-right: 1.3em;
+}
+
+.btn-menu {
+    border: none;
+    background-color: rgb(220,220,0);
+    border-radius: 0.5em;
+    margin-left: 1em;
+    font-family: "Lucida Console", "Courier New", sans-serif;
+    font-size: 22px;
+    height: 2em;
+    width: 5em;
+}
+.btn-menu:hover {
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+}
+.btn-menu:active {
+    background-color: rgb(255,255,150);
+}
