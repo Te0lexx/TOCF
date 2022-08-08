@@ -1,0 +1,518 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../medias/background.png");
+    background-color: rgb(50, 50, 50);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    height:10vh;
+    width: 40%;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    text-decoration: none;
+    margin-left:50%;
+    transform: translateX(-50%);
+    background-color:rgb(70, 70, 70);
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active{
+    color:black
+}
+
+.btn-menu {
+    padding:0.6em;
+    background-color: yellow;
+    border-radius: 0.7em;
+    border:none;
+    font-family: "Monaco", monospace, sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    transition:all 156ms ease;
+    animation: grow 700ms ease;
+}
+.btn-menu:hover {
+    box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+}
+.btn-menu:active {
+    background-color: rgb(255,255,150);
+}
+
+#story {
+    height:80vh;
+    width: 80%;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    color: rgb(205,205,5);
+    background-color: rgb(70, 70, 70);
+    border-radius: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top:3%;
+    margin-left:50%;
+    transform: translateX(-50%);
+    font-family: "Monaco", monospace, sans-serif;
+    box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+}
+
+.subdiv {
+    height:75vh;
+    width: 95%;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgb(40, 40, 40);
+    border-radius: 1em;
+    font-family: "Monaco", monospace, sans-serif;
+    box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+}
+
+#pStory {
+    width: 90%;
+}
+
+#infos {
+    margin-top:6%;
+    margin-left:50%;
+    transform: translateX(-50%);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:10vh;
+    width:60%;
+    background-color: rgb(70, 70, 70);
+    border-radius: 1em;
+}
+
+.buttoninfo {
+    padding:0.5em;
+    background-color:yellow;
+    color:black;
+    border-radius:0.5em;
+    font-family: "Monaco", monospace, sans-serif;
+    transition:all 156ms ease;
+    animation: grow 700ms ease;
+}
+
+.buttoninfo:hover {
+    box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+}
+.buttoninfo:active {
+    background-color: rgb(255,255,150);
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width:1600px) {
+    body {
+        padding: 0;
+        margin: 0;
+        background-image: url("../medias/background.png");
+        background-color: rgb(50, 50, 50);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+    header {
+        height:10vh;
+        width: 40%;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        text-decoration: none;
+        margin-left:50%;
+        transform: translateX(-50%);
+        background-color:rgb(70, 70, 70);
+        border-bottom-right-radius: 1em;
+        border-bottom-left-radius: 1em;
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:active{
+        color:black
+    }
+    
+    .btn-menu {
+        padding:0.6em;
+        background-color: yellow;
+        border-radius: 0.7em;
+        border:none;
+        
+        font-family: "Monaco", monospace, sans-serif;
+        font-weight: bolder;
+        font-size: 1em;
+        transition:all 156ms ease;
+        animation: grow 700ms ease;
+    }
+    .btn-menu:hover {
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    .btn-menu:active {
+        background-color: rgb(255,255,150);
+    }
+    
+    #story {
+        height:80vh;
+        width:80%;
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+        color: rgb(205,205,5);
+        background-color: rgb(70, 70, 70);
+        border-radius: 1em;
+        font-size:0.95em;
+        font-weight: bold;
+        margin-top:3%;
+        margin-left:50%;
+        transform: translateX(-50%);
+        font-family: "Monaco", monospace, sans-serif;
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    
+    .subdiv {
+        height:75vh;
+        width: 95%;
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+        background-color: rgb(40, 40, 40);
+        border-radius: 1em;
+        font-family: "Monaco", monospace, sans-serif;
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    
+    #pStory {
+        width: 90%;
+    }
+    
+    #infos {
+        margin-top:6%;
+        margin-left:50%;
+        transform: translateX(-50%);
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        height:10vh;
+        width:85%;
+        background-color: rgb(70, 70, 70);
+        border-radius: 1em;
+    }
+    
+    .buttoninfo {
+        padding:0.5em;
+        background-color:yellow;
+        color:black;
+        border-radius:0.5em;
+        font-family: "Monaco", monospace, sans-serif;
+        transition:all 156ms ease;
+        animation: grow 700ms ease;
+    }
+    
+    .buttoninfo:hover {
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    .buttoninfo:active {
+        background-color: rgb(255,255,150);
+    }
+    
+    @keyframes grow {
+        from {
+            transform: scale(0);
+        }
+        to {
+            transform: scale(1);
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        padding: 0;
+        margin: 0;
+        background-image: url("../medias/background.png");
+        background-color: rgb(50, 50, 50);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+    header {
+        height:10vh;
+        width: 45%;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        text-decoration: none;
+        margin-left:50%;
+        transform: translateX(-50%);
+        background-color:rgb(70, 70, 70);
+        border-bottom-right-radius: 1em;
+        border-bottom-left-radius: 1em;
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:active{
+        color:black
+    }
+    
+    .btn-menu {
+        padding:0.6em;
+        background-color: yellow;
+        border-radius: 0.7em;
+        border:none;
+        
+        font-family: "Monaco", monospace, sans-serif;
+        font-weight: bolder;
+        font-size: 1em;
+        transition:all 156ms ease;
+        animation: grow 700ms ease;
+    }
+    .btn-menu:hover {
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    .btn-menu:active {
+        background-color: rgb(255,255,150);
+    }
+    
+    #story {
+        height:95vh;
+        width:95%;
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+        color: rgb(205,205,5);
+        background-color: rgb(70, 70, 70);
+        border-radius: 1em;
+        font-weight: bold;
+        margin-top:3%;
+        margin-left:50%;
+        transform: translateX(-50%);
+        font-family: "Monaco", monospace, sans-serif;
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    
+    .subdiv {
+        height:85vh;
+        width: 95%;
+        font-size:1em;
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+        background-color: rgb(40, 40, 40);
+        border-radius: 1em;
+        font-family: "Monaco", monospace, sans-serif;
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    
+    #pStory {
+        width: 90%;
+    }
+    
+    #infos {
+        margin-top:6%;
+        margin-left:50%;
+        transform: translateX(-50%);
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        height:10vh;
+        width:85%;
+        background-color: rgb(70, 70, 70);
+        border-radius: 1em;
+    }
+    
+    .buttoninfo {
+        padding:0.25em;
+        background-color:yellow;
+        color:black;
+        border-radius:0.5em;
+        font-family: "Monaco", monospace, sans-serif;
+        font-weight: bolder;
+        transition:all 156ms ease;
+        animation: grow 700ms ease;
+    }
+    
+    .buttoninfo:hover {
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    .buttoninfo:active {
+        background-color: rgb(255,255,150);
+    }
+    
+    @keyframes grow {
+        from {
+            transform: scale(0);
+        }
+        to {
+            transform: scale(1);
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    body {
+        padding: 0;
+        margin: 0;
+        background-image: url("../medias/background.png");
+        background-color: rgb(50, 50, 50);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+    header {
+        height:10vh;
+        width: 55%;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        text-decoration: none;
+        margin-left:50%;
+        transform: translateX(-50%);
+        background-color:rgb(70, 70, 70);
+        border-bottom-right-radius: 1em;
+        border-bottom-left-radius: 1em;
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:active{
+        color:black
+    }
+    
+    .btn-menu {
+        padding:0.3em;
+        background-color: yellow;
+        border-radius: 0.7em;
+        border:none;
+        
+        font-family: "Monaco", monospace, sans-serif;
+        font-weight: bolder;
+        font-size: 1em;
+        transition:all 156ms ease;
+        animation: grow 700ms ease;
+    }
+    .btn-menu:hover {
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    .btn-menu:active {
+        background-color: rgb(255,255,150);
+    }
+    
+    #story {
+        height:155vh;
+        width:95%;
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+        color: rgb(205,205,5);
+        background-color: rgb(70, 70, 70);
+        border-radius: 1em;
+        font-weight: bold;
+        margin-top:3%;
+        margin-left:50%;
+        transform: translateX(-50%);
+        font-family: "Monaco", monospace, sans-serif;
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    
+    .subdiv {
+        height:95%;
+        width: 95%;
+        font-size:0.75em;
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+        background-color: rgb(40, 40, 40);
+        border-radius: 1em;
+        font-family: "Monaco", monospace, sans-serif;
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    
+    #pStory {
+        width: 90%;
+    }
+    
+    #infos {
+        margin-top:6%;
+        margin-left:50%;
+        transform: translateX(-50%);
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        height:8vh;
+        width:100%;
+        background-color: rgb(70, 70, 70);
+        border-radius: 1em;
+    }
+    
+    .buttoninfo {
+        background-color:yellow;
+        color:black;
+        font-size:0.7em;
+        border-radius:0.8em;
+        font-family: "Monaco", monospace, sans-serif;
+        font-weight: bolder;
+        transition:all 156ms ease;
+        animation: grow 700ms ease;
+    }
+    
+    .buttoninfo:hover {
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.75);
+    }
+    .buttoninfo:active {
+        background-color: rgb(255,255,150);
+    }
+    
+    @keyframes grow {
+        from {
+            transform: scale(0);
+        }
+        to {
+            transform: scale(1);
+        }
+    }
+}
